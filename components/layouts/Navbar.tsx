@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import UserDropDown from "../user-button/UserDropDown";
+import SearchButton from "../user-button/search-button";
 
 export default function MainHeader() {
 	const [isScrolled, setIsScrolled] = useState(false);
@@ -59,12 +60,9 @@ export default function MainHeader() {
 					</Link> */}
 				</nav>
 				<div className="md:flex items-center justify-center gap-4 sm:block hidden">
+					<SearchButton/>
 					<UserDropDown />
-						<Link
-						href="/generate"
-						className="text-sm text-gray-500 dark:text-white font-medium hover:text-primary">
-						All Chats
-					</Link> 
+						
 			
 				</div>
 			</div>
