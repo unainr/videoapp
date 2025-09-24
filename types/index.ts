@@ -10,3 +10,9 @@ export interface CommandProps {
 	open: boolean;
 	setOpen: Dispatch<SetStateAction<boolean>>;
 }
+
+// loading state types
+export  interface LoadingProps{
+title:string;
+description:string
+}

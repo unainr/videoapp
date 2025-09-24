@@ -38,11 +38,11 @@ export default function MainHeader() {
 					</span>
 				</Link>
 				<nav className="hidden gap-6 md:flex justify-center  items-center">
-					{/* <Link
-						href="/generate"
+					<Link
+						href="/agents"
 						className="text-sm text-gray-500 dark:text-white font-medium hover:text-primary">
-						Generate
-					</Link> */}
+						Agents
+					</Link>
 					{/* <Link
 						href="/about"
 						className="text-sm text-gray-500 dark:text-white font-medium hover:text-primary">

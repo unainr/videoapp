@@ -1,10 +1,11 @@
+import HomeView from '@/modules/home/ui/views/home-view'
 import React from 'react'
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen'>
-      Home page
-    </div>
+    <>
+      <HomeView/>
+    </>
   )
 }
 
