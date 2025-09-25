@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction } from "react";
+import React, { Dispatch, SetStateAction } from "react";
 
 export interface LayoutProps {
 	children: React.ReactNode;
@@ -15,4 +15,19 @@ export interface CommandProps {
 export  interface LoadingProps{
 title:string;
 description:string
+}
+
+// ResponsiveDialogProps
+export interface ResponsiveDialogProps{
+	title:string;
+	description:string;
+	children:React.ReactNode;
+	open:boolean;
+	onOpenChange:( open:boolean)=>void
+}
+
+// AgentPropsDialog
+export interface NewAgentDialogProps{
+    open:boolean;
+    onOpenChange:(open:boolean)=>void
 }
