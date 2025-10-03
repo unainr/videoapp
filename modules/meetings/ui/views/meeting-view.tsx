@@ -9,8 +9,8 @@ export const MeetingView = () => {
     const trpc = useTRPC();
     const {data} = useSuspenseQuery(trpc.meetings.getMany.queryOptions({}));
   return (
-    <div className='flex flex-col items-center justify-center min-h-screen'>
-        {JSON.stringify(data)}
+    <div className='w-full'>
+        {JSON.stringify(data,null,2)}
     </div>
   )
 }
