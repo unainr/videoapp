@@ -43,6 +43,12 @@ export default function MainHeader() {
 						className="text-sm text-gray-500 dark:text-white font-medium hover:text-primary">
 						Agents
 					</Link>
+
+					 <Link
+						href="/meetings"
+						className="text-sm text-gray-500 dark:text-white font-medium hover:text-primary">
+						Meetings
+					</Link>
 					{/* <Link
 						href="/about"
 						className="text-sm text-gray-500 dark:text-white font-medium hover:text-primary">
