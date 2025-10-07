@@ -51,7 +51,7 @@ export const columnsmeeting: ColumnDef<MeetingGetMany[number]>[] = [
 					<GeneratedAvatar
 						variant="botttsNeutral"
 						seed={row.original.name}
-						className="size-4 shrink-0"
+						className="size-4"
 					/>
 					<div className="flex flex-col">
 						<span className="font-semibold capitalize">
